@@ -1,26 +1,14 @@
-const readline = require('readline-sync')
+/*const readline = require('readline-sync')
+//const state = require('./state.js')
 
-const robots = {
-  //input: require('./robots/input.js'),
-  text: require('./robots/text.js'),
-  //state: require('./robots/state.js'),
-  //image: require('./robots/image.js'),
-  //video: require('./robots/video.js'),
-  //youtube: require('./robots/youtube.js')
-}
-
-async function start() {
-
+function robot() {
   const content = {
-   //maximumSentences: 7
+    //maximumSentences: 7
   }
+
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
   //state.save(content)
-
- 
-  //robots.input(content)
-  await robots.text(content)
 
   function askAndReturnSearchTerm() {
     return readline.question('Type a Wikipedia search term: ')
@@ -34,10 +22,6 @@ async function start() {
     return selectedPrefixText
   }
 
- 
-  console.log(content)
-   
-  }
-  
-start()
-  
+}
+
+module.exports = robot */
