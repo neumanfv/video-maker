@@ -12,7 +12,7 @@ const robots = {
 async function start() {
 
   const content = {
-   //maximumSentences: 7
+   maximumSentences: 7
   }
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
@@ -36,6 +36,7 @@ async function start() {
 
  
   console.log(content)
+  
    
   }
   
